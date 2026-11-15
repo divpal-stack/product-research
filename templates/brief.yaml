@@ -1,0 +1,26 @@
+# Copy to research/<run-slug>/brief.yaml and edit.
+
+our_product:
+  name: Acme                      # must match the product column in matrix.csv
+  url: https://acme.example
+  one_liner: Product analytics for B2B SaaS teams
+
+surface: analytics dashboard      # the whole product, or one surface/feature area
+icp: PMs and growth leads at 50-500 person SaaS companies
+
+known_competitors:                # optional; discovery adds to this list
+  - Mixpanel
+  - Amplitude
+max_competitors: 6
+include_aspirational: true        # best-in-class products outside the category
+
+must_have_features: []            # rows you definitely want in the matrix
+questions:                        # specific questions the report must answer
+  - What do users complain about most in competitor dashboards?
+
+sources:
+  reviews: [g2, capterra, reddit, hackernews]
+  lookback_months: 18
+
+# Optional: your own material (PRDs, call notes, exports). Paths relative to the run folder.
+own_docs: []
