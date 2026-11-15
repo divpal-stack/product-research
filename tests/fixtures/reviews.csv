@@ -1,0 +1,4 @@
+feature,mentions,sentiment,sample_url
+Scheduled digests,4,-0.2,https://example.com/r1
+Explain metric changes,12,-0.8,https://example.com/r2
+Custom SQL,2,0.5,https://example.com/r3
