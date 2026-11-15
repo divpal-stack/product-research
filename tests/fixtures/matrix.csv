@@ -1,0 +1,10 @@
+feature,category,product,grade,evidence_url,notes
+Scheduled digests,Sharing,Us,missing,https://example.com/us,synthetic test data
+Scheduled digests,Sharing,CompA,strong,https://example.com/a,
+Scheduled digests,Sharing,CompB,adequate,https://example.com/b,
+Explain metric changes,Insight,Us,weak,https://example.com/us,
+Explain metric changes,Insight,CompA,weak,https://example.com/a,
+Explain metric changes,Insight,CompB,missing,https://example.com/b,
+Custom SQL,Build,Us,strong,https://example.com/us,
+Custom SQL,Build,CompA,adequate,https://example.com/a,
+Custom SQL,Build,CompB,unknown,,enterprise-only
