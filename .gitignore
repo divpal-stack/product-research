@@ -1,0 +1,12 @@
+# Research runs can contain internal context; keep them private unless you choose to publish.
+research/*
+!research/.gitkeep
+!research/examples/
+
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+
+.claude/
