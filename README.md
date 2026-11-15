@@ -7,6 +7,12 @@
 - a **prioritized list of features to add**, scored by gap × market coverage × user demand ÷ effort,
 - a cited **report** you can drop into a PRD or roadmap review.
 
+### Example: [What should each AI coding tool build next? (Nov 2026)](research/examples/ai-coding-tools-2026-11/report.md)
+
+[![AI coding tools feature matrix](research/examples/ai-coding-tools-2026-11/matrix.png)](research/examples/ai-coding-tools-2026-11/report.md)
+
+Cursor, GitHub Copilot, Devin Desktop, Claude Code, Augment Code, Amp and Cline, graded on 17 user needs from public sources. Headline: cloud and parallel agents are now table stakes, while **a price you can predict** is the biggest unmet need.
+
 Most open-source "competitor intelligence" tools stop at a comparison table. This one is built around the next question: *so what should we build?* See [docs/prior-art.md](docs/prior-art.md) for what already exists and what this repo borrows from each.
 
 ---

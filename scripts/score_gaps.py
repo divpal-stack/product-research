@@ -88,7 +88,9 @@ def score(features, products, us, reviews, efforts, w_gap, w_cov, w_dem, table_s
         effort = efforts.get(feat, 2)
         priority = (w_gap * gap + w_cov * coverage + w_dem * demand) / effort
 
-        if coverage >= table_stakes_cov and ours < 2:
+        if ours_raw is None:
+            label = "Unverified"
+        elif coverage >= table_stakes_cov and ours < 2:
             label = "Table stakes – missing"
         elif ours > best:
             label = "We lead"

@@ -1,0 +1,120 @@
+feature,category,product,grade,evidence_url,notes
+Edit across many files from inside the editor,Core agent,Cursor,strong,https://www.cursor.com/changelog,Agent mode; foreground and background agents in sidebar
+Edit across many files from inside the editor,Core agent,GitHub Copilot,strong,https://nxcode.io/resources/news/github-copilot-complete-guide-2026-features-pricing-agents,Agent mode GA in VS Code and JetBrains (Mar 2026)
+Edit across many files from inside the editor,Core agent,Devin Desktop,strong,https://docs.devin.ai/desktop/devin-desktop-faq,Devin Local agent with subagents replaced Cascade
+Edit across many files from inside the editor,Core agent,Claude Code,strong,https://code.claude.com/docs/llms.txt,VS Code and JetBrains extensions with inline diffs
+Edit across many files from inside the editor,Core agent,Augment Code,strong,https://toolradar.com/tools/augment-code,IDE agents for VS Code and JetBrains
+Edit across many files from inside the editor,Core agent,Amp,adequate,https://devtoollab.com/ai-tools/sourcegraph-amp,Terminal-first; VS Code extension
+Edit across many files from inside the editor,Core agent,Cline,strong,https://rywalker.com/research/cline,VS Code agent with per-action approval
+Hand off a task to a cloud agent and get a PR back,Async agents,Cursor,strong,https://cursor.com/changelog/1,Background/cloud agents; @Cursor in GitHub PRs
+Hand off a task to a cloud agent and get a PR back,Async agents,GitHub Copilot,strong,https://github.blog/2026/02/whats-new-with-github-copilot-coding-agent/,"Assign an issue, get a PR"
+Hand off a task to a cloud agent and get a PR back,Async agents,Devin Desktop,strong,https://sacra.com/chat/h/f1f623e5-aba6-4cdc-9463-9937a6f9c961/,Cloud agent management in Agent Command Center
+Hand off a task to a cloud agent and get a PR back,Async agents,Claude Code,strong,https://code.claude.com/docs/llms.txt,"Cloud sessions: connect repo, submit task, review PR"
+Hand off a task to a cloud agent and get a PR back,Async agents,Augment Code,adequate,https://toolradar.com/tools/augment-code,Remote agents for multi-step tasks
+Hand off a task to a cloud agent and get a PR back,Async agents,Amp,adequate,https://tech-insider.org/amp-vs-claude-code-vs-cursor-2026/,Remote Orbs incl. self-hosted (Oct 2026)
+Hand off a task to a cloud agent and get a PR back,Async agents,Cline,weak,https://rywalker.com/research/cline,No hosted cloud agent; DIY via headless CLI in CI
+Run several agents in parallel and manage them in one place,Async agents,Cursor,strong,https://developertoolkit.ai/en/cursor-ide/reference/changelog/,Agents window; multiple cloud agents at once
+Run several agents in parallel and manage them in one place,Async agents,GitHub Copilot,strong,https://www.helpnetsecurity.com/?p=373480,Copilot desktop app as home for agents
+Run several agents in parallel and manage them in one place,Async agents,Devin Desktop,strong,https://www.danilchenko.dev/posts/devin-desktop-review/,Agent Command Center Kanban of all agents
+Run several agents in parallel and manage them in one place,Async agents,Claude Code,strong,https://claudeforoperators.com/platform/code/,Desktop multi-session sidebar; agent teams
+Run several agents in parallel and manage them in one place,Async agents,Augment Code,adequate,https://tooliverse.ai/tools/augment-code,Cosmos coordinates triage/authoring/review agents
+Run several agents in parallel and manage them in one place,Async agents,Amp,adequate,https://theaiagentindex.com/agents/amp,Subagents and remote execution
+Run several agents in parallel and manage them in one place,Async agents,Cline,adequate,https://toolbrain-astro.pages.dev/blog/cline-review-2026/,Kanban web UI for parallel agents
+Work from the terminal or headless in CI,Surfaces,Cursor,adequate,https://cursor.com/blog/page/5,Cursor CLI listed as product surface
+Work from the terminal or headless in CI,Surfaces,GitHub Copilot,strong,https://lilting.ch/en/articles/ai-dev-tools-copilot-agent-figma-codex-mcp,Copilot CLI GA Feb 2026
+Work from the terminal or headless in CI,Surfaces,Devin Desktop,adequate,https://docs.devin.ai/desktop/devin-desktop-faq,Devin CLI shares Devin Local architecture
+Work from the terminal or headless in CI,Surfaces,Claude Code,strong,https://code.claude.com/docs/llms.txt,Terminal-native; CI/CD integrations
+Work from the terminal or headless in CI,Surfaces,Augment Code,adequate,https://yespress.io/products/augment-code.md,Auggie CLI
+Work from the terminal or headless in CI,Surfaces,Amp,strong,https://devtoollab.com/ai-tools/sourcegraph-amp,Terminal-first agent
+Work from the terminal or headless in CI,Surfaces,Cline,strong,https://rywalker.com/research/cline,"CLI 2.0: headless, JSON output, CI"
+Catch bugs in pull requests before merge,Quality,Cursor,strong,https://fourweekmba.com/cursor-bugbot-automate-cloud-subagents-spacex/,Bugbot 2.0; autofix
+Catch bugs in pull requests before merge,Quality,GitHub Copilot,strong,https://nxcode.io/resources/news/github-copilot-complete-guide-2026-features-pricing-agents,Agentic code review hands fixes to cloud agent
+Catch bugs in pull requests before merge,Quality,Devin Desktop,adequate,https://www.everydev.ai/tools/devin-desktop,PR review and visual QA
+Catch bugs in pull requests before merge,Quality,Claude Code,strong,https://codemyspec.com/blog/claude-code-review-2026,Code Review + /ultrareview; Max/Team/Ent for ultrareview
+Catch bugs in pull requests before merge,Quality,Augment Code,strong,https://toolradar.com/tools/augment-code,Inline GitHub review comments
+Catch bugs in pull requests before merge,Quality,Amp,unknown,,No PR review product found in public sources
+Catch bugs in pull requests before merge,Quality,Cline,unknown,,No PR review product found in public sources
+Check its own work before handing it over,Quality,Cursor,adequate,https://www.gradually.ai/en/changelogs/cursor/,/review runs Bugbot and security review locally
+Check its own work before handing it over,Quality,GitHub Copilot,strong,https://github.blog/2026/02/whats-new-with-github-copilot-coding-agent/,Self-review and built-in security scanning
+Check its own work before handing it over,Quality,Devin Desktop,adequate,https://howaiworks.ai/ai-tools/windsurf.md,"Devin Local plans, executes and verifies"
+Check its own work before handing it over,Quality,Claude Code,adequate,https://code.claude.com/docs/en/changelog.md,Multi-agent analysis and critique via /ultrareview
+Check its own work before handing it over,Quality,Augment Code,adequate,https://tooliverse.ai/tools/augment-code,Cosmos verification stage
+Check its own work before handing it over,Quality,Amp,unknown,,Not documented in sources read
+Check its own work before handing it over,Quality,Cline,weak,https://aitoolsatlas.ai/tools/cline,"Human approval per step (Plan/Act), no automated self-check"
+Understand a large codebase,Context,Cursor,strong,https://www.nxcode.io/resources/news/github-copilot-getting-worse-2026-developers-switching,Deep codebase indexing
+Understand a large codebase,Context,GitHub Copilot,adequate,https://www.nxcode.io/resources/news/github-copilot-getting-worse-2026-developers-switching,"Semantic code search, but multi-file context is the top complaint"
+Understand a large codebase,Context,Devin Desktop,adequate,https://www.nxcode.io/fr/resources/news/cognition-windsurf-acquisition-swe-1-5-codemaps-2026,Codemaps
+Understand a large codebase,Context,Claude Code,adequate,https://claudeforoperators.com/platform/code/,"1M-token context; agentic search, no index"
+Understand a large codebase,Context,Augment Code,strong,https://neuronfeed.com/reviews/augment-code-review-2026,"Context Engine across 400,000+ files"
+Understand a large codebase,Context,Amp,strong,https://aitoolsatlas.ai/tools/sourcegraph-amp/review,Code graph search (Librarian)
+Understand a large codebase,Context,Cline,unknown,,No indexing described in sources read
+Remember project context across sessions,Context,Cursor,adequate,https://techdevnotes.com/releases/cursor-ide/20260628-000503Z-24c56c815201/content/changelog.txt,"Memory files, managed in UI"
+Remember project context across sessions,Context,GitHub Copilot,adequate,https://www.javacodegeeks.com/?p=141630,Spaces for shared context
+Remember project context across sessions,Context,Devin Desktop,unknown,,Not documented in sources read
+Remember project context across sessions,Context,Claude Code,adequate,https://www.morphllm.com/claude-code-reddit,CLAUDE.md memory; users report auto-compact losing context
+Remember project context across sessions,Context,Augment Code,strong,https://toolradar.com/tools/augment-code,Automatic memories across sessions
+Remember project context across sessions,Context,Amp,unknown,,Not documented in sources read
+Remember project context across sessions,Context,Cline,weak,https://rywalker.com/research/cline,Static .clinerules files only
+Choose any model or bring your own key,Models,Cursor,adequate,https://thenewstack.io/x-subscription-cursor-pricing/,Grok-first pool; Claude and other third-party models cost extra
+Choose any model or bring your own key,Models,GitHub Copilot,strong,https://www.ai-souken.com/article/github-copilot-updates-2026,Model picker across vendors; BYOK
+Choose any model or bring your own key,Models,Devin Desktop,adequate,https://callsphere.ai/blog/td30-gen-windsurf-cognition-acquisition-impact-us-tech,SWE-1.6 in-house plus others; neutrality an open question
+Choose any model or bring your own key,Models,Claude Code,weak,https://codemyspec.com/blog/claude-code-review-2026,Anthropic models only
+Choose any model or bring your own key,Models,Augment Code,adequate,https://amplifying.ai/coding-agents/augment-code,Broad model routing
+Choose any model or bring your own key,Models,Amp,strong,https://tech-insider.org/amp-vs-claude-code-vs-cursor-2026/,Free Agent: bring your own keys/subscriptions
+Choose any model or bring your own key,Models,Cline,strong,https://aiidelist.com/ide/cline.md,"Any provider, BYOK, local models"
+Fast autocomplete while typing,Editor,Cursor,strong,https://softpicker.com/cursor-ai-review-2026/,Unlimited Tab
+Fast autocomplete while typing,Editor,GitHub Copilot,strong,https://www.javacodegeeks.com/?p=141630,Completions don't consume premium requests on paid plans
+Fast autocomplete while typing,Editor,Devin Desktop,strong,https://aiproductivity.ai/tools/windsurf/,"Unlimited Tab, even on Free"
+Fast autocomplete while typing,Editor,Claude Code,missing,https://code.claude.com/docs/llms.txt,No completion feature in docs index (absence only)
+Fast autocomplete while typing,Editor,Augment Code,strong,https://toolradar.com/tools/augment-code,Completions and next edits
+Fast autocomplete while typing,Editor,Amp,unknown,,Not documented in sources read
+Fast autocomplete while typing,Editor,Cline,unknown,,Not documented in sources read
+Plug in external tools via MCP,Extensibility,Cursor,strong,https://www.markaicode.com/cursor-beta-features-2026/,"MCP Apps, team MCP marketplaces"
+Plug in external tools via MCP,Extensibility,GitHub Copilot,strong,https://github.blog/search/copilot/page/22/,MCP replaced Copilot Extensions
+Plug in external tools via MCP,Extensibility,Devin Desktop,adequate,https://www.autonomous.ai/en-BG/ourblog/windsurf-review,MCP with approval prompt
+Plug in external tools via MCP,Extensibility,Claude Code,strong,https://codemyspec.com/blog/claude-code-review-2026,MCP-native
+Plug in external tools via MCP,Extensibility,Augment Code,strong,https://yespress.io/products/augment-code.md,MCP tools; Context Engine exposed as MCP
+Plug in external tools via MCP,Extensibility,Amp,adequate,https://amplifying.ai/coding-agents/amp,Listed as partial MCP support
+Plug in external tools via MCP,Extensibility,Cline,strong,https://rywalker.com/research/cline,MCP marketplace
+"Share skills, plugins and rules across a team",Extensibility,Cursor,strong,https://techdevnotes.com/releases/cursor-ide/20260628-000503Z-24c56c815201/content/changelog.txt,"Plugins, skills, team marketplaces"
+"Share skills, plugins and rules across a team",Extensibility,GitHub Copilot,strong,https://codemyspec.com/blog/github-copilot-review-2026,Custom agents; portable gh skill
+"Share skills, plugins and rules across a team",Extensibility,Devin Desktop,unknown,,Not documented in sources read
+"Share skills, plugins and rules across a team",Extensibility,Claude Code,strong,https://fast.io/resources/everything-claude-code-guide/,"Plugins bundle skills, hooks, subagents, MCP"
+"Share skills, plugins and rules across a team",Extensibility,Augment Code,adequate,https://aiidelist.com/ide/augment,Custom commands
+"Share skills, plugins and rules across a team",Extensibility,Amp,unknown,,Not documented in sources read
+"Share skills, plugins and rules across a team",Extensibility,Cline,adequate,https://rywalker.com/research/cline,.clinerules and SKILL.md
+Use it inside JetBrains IDEs,Surfaces,Cursor,adequate,https://www.markaicode.com/cursor-beta-features-2026/,Via JetBrains ACP
+Use it inside JetBrains IDEs,Surfaces,GitHub Copilot,strong,https://nxcode.io/resources/news/github-copilot-complete-guide-2026-features-pricing-agents,Agent mode GA in JetBrains
+Use it inside JetBrains IDEs,Surfaces,Devin Desktop,adequate,https://claudemarket.ai/blog/windsurf,JetBrains plugin continues separately
+Use it inside JetBrains IDEs,Surfaces,Claude Code,strong,https://hidekazu-konishi.com/entry/claude_code_features_settings_reference_2026.html,JetBrains plugin GA
+Use it inside JetBrains IDEs,Surfaces,Augment Code,strong,https://www.everydev.ai/tools/augmentcode,VS Code and JetBrains
+Use it inside JetBrains IDEs,Surfaces,Amp,unknown,,Not documented in sources read
+Use it inside JetBrains IDEs,Surfaces,Cline,weak,https://rywalker.com/research/cline,"Early access, Enterprise only"
+Start agents from Slack or the issue tracker,Workflow,Cursor,strong,https://prod.cursor.com/changelog/page/5,"Slack, Linear, Jira, GitHub"
+Start agents from Slack or the issue tracker,Workflow,GitHub Copilot,strong,https://www.javacodegeeks.com/?p=141630,Assign GitHub issues to Copilot
+Start agents from Slack or the issue tracker,Workflow,Devin Desktop,unknown,,Not documented in sources read
+Start agents from Slack or the issue tracker,Workflow,Claude Code,adequate,https://claudeforoperators.com/platform/code/,Channels (Slack etc.) research preview; GitHub-triggered routines
+Start agents from Slack or the issue tracker,Workflow,Augment Code,adequate,https://www.getapp.com.au/software/2103635/augment-code,"Slack, GitHub, Jira integrations"
+Start agents from Slack or the issue tracker,Workflow,Amp,unknown,,Not documented in sources read
+Start agents from Slack or the issue tracker,Workflow,Cline,unknown,,Not documented in sources read
+Run and look at the app it is building,Quality,Cursor,strong,https://www.markaicode.com/cursor-beta-features-2026/,Cloud agents with computer use; browser Design Mode
+Run and look at the app it is building,Quality,GitHub Copilot,adequate,https://www.analyticsinsight.net/artificial-intelligence/github-copilot-adds-new-ai-agent-features-to-vs-code-in-2026,Computer Use (2026)
+Run and look at the app it is building,Quality,Devin Desktop,adequate,https://www.everydev.ai/tools/devin-desktop,Visual QA; previews
+Run and look at the app it is building,Quality,Claude Code,adequate,https://code.claude.com/docs/llms.txt,Chrome integration; app previews in desktop
+Run and look at the app it is building,Quality,Augment Code,unknown,,Not documented in sources read
+Run and look at the app it is building,Quality,Amp,unknown,,Not documented in sources read
+Run and look at the app it is building,Quality,Cline,strong,https://rywalker.com/research/cline,Pioneered browser automation in coding agents
+Know what you'll pay and when you'll hit a limit,Pricing,Cursor,weak,https://cursor-alternatives.com/blog/what-developers-really-think-ai-coding-tools/,Limits tightened; now a shared Grok/Cursor weekly pool
+Know what you'll pay and when you'll hit a limit,Pricing,GitHub Copilot,weak,https://itcblogs.currentanalysis.com/2026/04/30/april-showers-heartache-on-developers-using-popular-coding-tools/,Moved from flat-rate to usage-based billing (Apr 2026)
+Know what you'll pay and when you'll hit a limit,Pricing,Devin Desktop,weak,https://claudemarket.ai/blog/windsurf,"Daily/weekly quotas, overage at API rates"
+Know what you'll pay and when you'll hit a limit,Pricing,Claude Code,weak,https://1023jack.com/news/the-twelve-real-complaints-about-ai-tools-in-2026-a-reddit-twitter-and-github-sy/,Reports of rapid rate-limit drain
+Know what you'll pay and when you'll hit a limit,Pricing,Augment Code,weak,https://tooliverse.ai/tools/augment-code,Credit-based pricing adds overhead
+Know what you'll pay and when you'll hit a limit,Pricing,Amp,adequate,https://devtoollab.com/ai-tools/sourcegraph-amp,"Pass-through pricing, zero markup"
+Know what you'll pay and when you'll hit a limit,Pricing,Cline,strong,https://aiidelist.com/ide/cline.md,Free tool; pay inference at cost or BYOK
+Get real work done on a free plan,Pricing,Cursor,adequate,https://x.ai/news/x-subscription,X Subscription Free: starter coding-agent allowance
+Get real work done on a free plan,Pricing,GitHub Copilot,adequate,https://agents-compare-three.vercel.app/agent/github-copilot,Limited free tier
+Get real work done on a free plan,Pricing,Devin Desktop,adequate,https://aiproductivity.ai/tools/windsurf/,"Free: light agent quota, unlimited Tab"
+Get real work done on a free plan,Pricing,Claude Code,unknown,,Free access not documented in sources read
+Get real work done on a free plan,Pricing,Augment Code,weak,https://yespress.io/products/augment-code.md,No permanent free plan on pricing page
+Get real work done on a free plan,Pricing,Amp,adequate,https://tech-insider.org/amp-vs-claude-code-vs-cursor-2026/,Amp Free paused; free with your own keys
+Get real work done on a free plan,Pricing,Cline,strong,https://aiidelist.com/ide/cline.md,"Open source, free; pay only for inference"

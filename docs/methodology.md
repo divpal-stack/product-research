@@ -53,10 +53,11 @@ For each feature, count mentions in public reviews and discussions (G2, Capterra
 priority = (0.40·gap + 0.30·coverage + 0.30·demand) / effort
 ```
 
-Each feature is labeled:
+Each feature is labeled (first matching rule wins):
 
 | label | rule | what to do |
 |---|---|---|
+| **Unverified** | our own grade is `unknown` | Verify before acting. Never report it as missing. |
 | **Table stakes – missing** | coverage ≥ 0.6 and ours < adequate | Close it. Buyers expect it. |
 | **Behind** | best − ours ≥ 1 | Improve if demand is high. |
 | **Open field** | best ≤ weak and demand ≥ 0.5 | Differentiate. Nobody does this well. |

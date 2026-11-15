@@ -28,6 +28,13 @@ class ScoreGapsTest(unittest.TestCase):
         self.assertEqual(self.rows["Custom SQL"]["unknown_for"], "CompB")
         self.assertEqual(self.rows["Custom SQL"]["coverage"], 0.5)
 
+    def test_unknown_own_grade_is_unverified_not_missing(self):
+        features, products = score_gaps.load_matrix(FIX / "matrix.csv")
+        rows = score_gaps.score(features, products, "CompB", {}, {}, 0.4, 0.3, 0.3, 0.6, 0.5)
+        sql = next(r for r in rows if r["feature"] == "Custom SQL")
+        self.assertEqual(sql["label"], "Unverified")
+        self.assertEqual(sql["ours"], "unknown")
+
     def test_missing_table_stakes_ranks_first(self):
         self.assertEqual(self.order[0], "Scheduled digests")
 

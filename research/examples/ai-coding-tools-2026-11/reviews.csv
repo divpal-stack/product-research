@@ -1,0 +1,9 @@
+feature,mentions,sentiment,sample_url
+Know what you'll pay and when you'll hit a limit,6,-0.8,https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026
+Check its own work before handing it over,3,-0.7,https://stackoverflow.blog/2025/07/29/developers-remain-willing-but-reluctant-to-use-ai-the-2025-developer-survey-results-are-here/?cb=1
+Understand a large codebase,4,-0.6,https://www.nxcode.io/resources/news/github-copilot-getting-worse-2026-developers-switching
+Remember project context across sessions,2,-0.5,https://dev.to/aatizaz/ai-coding-tools-are-getting-better-so-why-are-we-still-spending-so-much-time-managing-them-1pjd
+Choose any model or bring your own key,3,-0.3,https://blog.kilo.ai/p/six-months-of-reddit-developer-sentiment
+Get real work done on a free plan,2,-0.4,https://www.bitdoze.com/amp-code-free-ai-coding-agent/
+Run several agents in parallel and manage them in one place,2,0.0,https://www.morphllm.com/claude-code-reddit
+Fast autocomplete while typing,1,0.3,https://codepipelines.pages.dev/tips/github-copilot-getting-worse-2026
