@@ -24,6 +24,9 @@ Follow `skills/review-mining/SKILL.md`.
 ## 4. Score and report → `gaps.csv`, `report.md`
 Follow `skills/gap-prioritization/SKILL.md`.
 
+## Journey questions
+If the user asks how products compare on one specific flow ("onboarding on desktop", "first PR", "inviting a teammate"), run `skills/journey-teardown/SKILL.md` instead of, or after, the feature matrix.
+
 ## Rules for the whole run
 - Every grade and claim needs a URL. If you can't find one, mark it `unknown` and say why.
 - Grade our own product with the same rubric, from public sources.

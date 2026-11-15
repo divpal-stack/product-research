@@ -1,0 +1,36 @@
+feature,category,product,grade,evidence_type,evidence_url,notes
+1. Install it,Install,Cursor,strong,public,https://cursor.com/docs/get-started/quickstart.md,Standalone app (.dmg/.exe/apt/AppImage)
+1. Install it,Install,GitHub Copilot,strong,public,https://docs.github.com/en/copilot/get-started/quickstart-copilot-app,Standalone desktop app; needs Git installed
+1. Install it,Install,Devin Desktop,strong,public,https://docs.devin.ai/desktop/getting-started.md,Standalone app; optional terminal command
+1. Install it,Install,Claude Code,strong,public,https://code.claude.com/docs/en/desktop-quickstart.md,Desktop app bundles Claude Code; no Node or CLI needed. Windows needs Git
+1. Install it,Install,Augment Code,adequate,public,https://docs.augmentcode.com/quickstart.md,Extension: needs VS Code or JetBrains installed first
+1. Install it,Install,Amp,adequate,public,https://ampcode.com/docs/macos-and-ios,Web needs no install; Mac app is beta and needs macOS 26+
+1. Install it,Install,Cline,adequate,public,https://docs.cline.bot/getting-started,Extension: needs a compatible editor installed first
+2. Get in without paying,Access,Cursor,weak,logged-in,https://cursor.com/docs/get-started/quickstart.md,Observed 2026-11-15: dashboard sign-in landed on a Premium checkout (/unify/upgrade) and a Grok sign-in popup. A free X Subscription tier exists (x.ai/news/x-subscription)
+2. Get in without paying,Access,GitHub Copilot,strong,public,https://docs.github.com/en/copilot/get-started/quickstart-copilot-app,No plan? Sign up or bring your own model key in-app. Free plan lists the app (github.com/features/ai/github-app); some older doc pages still say Free users lack access
+2. Get in without paying,Access,Devin Desktop,adequate,logged-in,https://docs.devin.ai/desktop/getting-started.md,Free sign-up documented. Observed 2026-11-15: Windsurf web login sent the user to a Devin 'Connect your Git provider' page with no visible action and 400/404 console errors
+2. Get in without paying,Access,Claude Code,weak,public,https://code.claude.com/docs/en/desktop-quickstart.md,Code tab requires Pro/Max/Team/Enterprise; free users get an upgrade prompt
+2. Get in without paying,Access,Augment Code,weak,public,https://yespress.io/products/augment-code.md,No permanent free plan listed on pricing page
+2. Get in without paying,Access,Amp,adequate,public,https://ampcode.com/manual,"Sign up; optional ChatGPT sign-in for OpenAI models. Free tier paused, free with your own keys"
+2. Get in without paying,Access,Cline,adequate,public,https://docs.cline.bot/introduction/welcome,"Free, but newcomers must pick a model provider and paste an API key, or create a Cline account"
+3. Point it at your code,Connect,Cursor,strong,public,https://cursor.com/docs/get-started/quickstart.md,Pick a folder; indexing starts automatically
+3. Point it at your code,Connect,GitHub Copilot,strong,public,https://docs.github.com/en/copilot/get-started/quickstart-copilot-app,Pre-lists repos from your recent GitHub activity; local folder or skip
+3. Point it at your code,Connect,Devin Desktop,strong,public,https://docs.devin.ai/desktop/getting-started.md,"Open project, Clone repository or Connect via SSH from the start page"
+3. Point it at your code,Connect,Claude Code,adequate,public,https://code.claude.com/docs/en/desktop-quickstart.md,"Two controls: pick 'Local' environment, then 'Open folder…'"
+3. Point it at your code,Connect,Augment Code,adequate,public,https://docs.augmentcode.com/setup-augment/sign-in.md,Click Sync to index the workspace before full codebase awareness
+3. Point it at your code,Connect,Amp,strong,public,https://ampcode.com/manual,"Create a project from a Git repo, or start without one; runs in a cloud orb"
+3. Point it at your code,Connect,Cline,adequate,public,https://fast.io/resources/how-to-use-cline/,"Open a folder in the editor, then the Cline panel"
+4. Know what to ask first,First task,Cursor,adequate,public,https://cursor.com/docs/get-started/quickstart.md,"Docs suggest 'explain the codebase' then 'suggest three small, safe improvements'; in-product prompt not documented"
+4. Know what to ask first,First task,GitHub Copilot,strong,public,https://docs.github.com/en/copilot/get-started/quickstart-copilot-app,"Suggested first prompt: a small low-risk change, implemented and explained"
+4. Know what to ask first,First task,Devin Desktop,strong,public,https://docs.devin.ai/desktop/getting-started.md,'Start new session' list suggests prompts; one click fills the input
+4. Know what to ask first,First task,Claude Code,adequate,public,https://code.claude.com/docs/en/desktop-quickstart.md,"Docs list example prompts (fix a TODO, add tests, create CLAUDE.md); in-product suggestions not documented"
+4. Know what to ask first,First task,Augment Code,unknown,public,,No first-task guidance found in quickstart
+4. Know what to ask first,First task,Amp,unknown,public,,No first-task guidance found in sources read
+4. Know what to ask first,First task,Cline,adequate,public,https://docs.cline.bot/getting-started/your-first-project.md,Separate 'Build your first project' tutorial (todo app)
+5. Review and keep the change,Review,Cursor,adequate,public,https://cursor.com/docs/get-started/quickstart.md,Diff view + run checks; no explicit keep/accept step described
+5. Review and keep the change,Review,GitHub Copilot,strong,public,https://docs.github.com/en/copilot/get-started/quickstart-copilot-app,"'Changes' diff, then one-click 'Create PR'"
+5. Review and keep the change,Review,Devin Desktop,adequate,public,https://docs.devin.ai/_llms/en/desktop.md,"Quick Review exists, but onboarding doesn't cover reviewing the first change"
+5. Review and keep the change,Review,Claude Code,strong,public,https://code.claude.com/docs/en/desktop-quickstart.md,Clear permission modes; approve/decline each change; line comments; /code-review
+5. Review and keep the change,Review,Augment Code,unknown,public,,Review of first change not covered in quickstart
+5. Review and keep the change,Review,Amp,unknown,public,,Not covered in sources read
+5. Review and keep the change,Review,Cline,adequate,public,https://tooliverse.ai/tools/cline,Approve every file change and command; frequent approvals slow users (cited in 65 reviews)

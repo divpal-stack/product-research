@@ -69,3 +69,22 @@ All weights and thresholds are CLI flags. Change them openly in the report rathe
 ## 5. Write the report
 
 Use `templates/report.md`. Every claim links to a row in `matrix.csv` or `reviews.csv`. The roadmap section lists the top items by priority, each with the user need, evidence, label and a one-line build suggestion.
+
+## 6. Journey teardowns (stage-by-stage)
+
+A journey teardown grades how well each product gets a user through **one specific job on one surface** (for example, desktop onboarding from nothing to a first reviewed change). Rows are stages instead of features. It uses the same CSV format, scorer and grades, plus an `evidence_type` column (`logged-in`, `public` or `measured`).
+
+| grade | for a journey stage |
+|---|---|
+| `strong` | The user gets through the stage without a decision they aren't equipped to make, and the product does part of the work for them (pre-filled choices, a suggested next action, one-click completion) |
+| `adequate` | Clear and documented, but the user does the work (pick a folder, write the first prompt, find the diff) |
+| `weak` | A wall or detour: a paywall or checkout before any value, a prerequisite to install, a confusing choice, or a known dead end |
+| `missing` | The stage isn't supported (no way to keep or share the result, say) |
+| `unknown` | Not covered by any source read |
+
+Rules:
+- **Logged-in observations beat docs**, but record the date, the account type and anything about your setup that could distort them (for example, an embedded browser that blocks popups).
+- **Name the mechanism, not the feeling.** Every note says *what* earned the grade.
+- **Each fix copies a best-in-class example.** Recommendations name the product that already solves that stage.
+
+See `skills/journey-teardown/SKILL.md` and the worked example in `research/examples/desktop-onboarding-2026-11/`.
