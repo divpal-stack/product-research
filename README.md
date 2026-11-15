@@ -40,7 +40,7 @@ The grading rubric and scoring formula are in [docs/methodology.md](docs/methodo
 
 ```bash
 git clone https://github.com/<you>/product-research && cd product-research
-./scripts/setup.sh          # links skills/ into .claude/skills (add --global for all projects)
+bash scripts/setup.sh       # links skills/ into .claude/skills (add --global for all projects)
 claude
 ```
 
